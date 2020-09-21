@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 400ms;
+    user-select: none;
+}
+
+body {
+    background-image: url(./bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover 100%;
+}
+
+
+.main {
+    width: 100%;
+    max-width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top {
+    width: 30%;
+    max-width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: "Broadway";
+    color: pink;
+    font-size: 5vh;
+    text-shadow: rgba(0, 0, 0, 0.7) 0px 0px 3px;
+}
+
+.score {
+    font-size: 16px;
+}
+
+.reset {
+    font-size: 20px;
+    font-family: "細明體";
+    padding: 5px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    border: pink solid 1px;
+    cursor: pointer;
+}
+
+.row {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #C2D4FF;
+}
+
+.item:hover {
+    background-color: rgb(255, 210, 217);
+}
+
+.icon-0 { background-color: #dde3f0; }
+.icon-00 { background-image: url(./images/0.png); }
+.icon-1 { background-image: url(./images/1.png); }
+.icon-2 { background-image: url(./images/2.png); }
+.icon-3 { background-image: url(./images/3.png); }
+.icon-4 { background-image: url(./images/4.png); }
+.icon-5 { background-image: url(./images/5.png); }
+.icon-6 { background-image: url(./images/6.png); }
+.icon-7 { background-image: url(./images/7.png); }
+.icon-8 { background-image: url(./images/8.png); }
+.icon-9 { background-image: url(./images/9.png); }
+.icon-lei { background-image: url(./images/地雷.png); }
+.icon-qi { background-image: url(./images/旗子.png); }
